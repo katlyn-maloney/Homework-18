@@ -77,12 +77,14 @@ p {
     height: 60px;
 }
 
+
 .aboutMe {
     display: flex;
     flex-direction: row;
     padding: 50px;
     width: 100%;
     height: 300px;
+    margin-left: 250px;
     align-content: center;
     justify-content: center;
 }
@@ -92,5 +94,98 @@ p {
     width: auto;
     padding: 30px;
     text-align: center;
+}
+
+.aboutP {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.skillsBox1 {
+    width: 360px;
+    height: 70px;
+    background-color: #CABAD1;
+    padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-area: skillsBox1;
+}
+
+.skillsBox2 {
+    width: 360px;
+    height: 70px;
+    background-color: #CABAD1;
+    padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-area: skillsBox2;
+}
+
+.skillsBox3 {
+    width: 360px;
+    height: 70px;
+    background-color: #CABAD1;
+    padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-area: skillsBox3;
+}
+
+.skillsTitle {
+    grid-area: skillsTitle;
+    text-align: center;
+}
+
+.skillsP {
+    grid-area: skillsP;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.skillsButton {
+    grid-area: skillsButton;
+    text-align: center;
+}
+
+.skillsGrid {
+    display: grid;
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "skillsBox1 skillsTitle"
+        "skillsBox2 skillsP"
+        "skillsBox3 skillsButton"
+}
+
+.graphicBox {
+    grid-area: graphicBox;
+    text-align: center;
+}
+
+.uxBox {
+    grid-area: uxBox;
+}
+
+.workGrid {
+    display: grid;
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "graphicBox uxBox"
+}
+
+.centerTitle {
+    text-align: center;
+    padding: 20px;
 }
 
