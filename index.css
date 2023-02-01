@@ -62,18 +62,18 @@ p {
 .greenButton {
     background-color: #4E6146;
     font-family: 'open sans', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #FEFFFC;
-    width: 179px;
+    width: 190px;
     height: 60px;
 }
 
 .purpleButton {
     background-color: #785B85;
     font-family: 'open sans', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #FEFFFC;
-    width: 179px;
+    width: 190px;
     height: 60px;
 }
 
@@ -166,16 +166,21 @@ p {
 
 .graphicBox {
     grid-area: graphicBox;
-    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 300px;
+    margin-bottom: 50px;
 }
 
 .uxBox {
     grid-area: uxBox;
+    justify-content: center;
+    align-content: center;
+    margin-left: 50px;
 }
 
 .workGrid {
     display: grid;
-    padding-top: 100px;
     margin-left: 20%;
     margin-right: 20%;
     grid-template-columns: 1fr 1fr;
